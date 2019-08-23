@@ -39,14 +39,12 @@ Using Slack's  [Events API](https://api.slack.com/events-api) and [@slack/events
 
 > **Note:** [Create a slack app ](https://api.slack.com/apps/new) if you haven't already. On the **Basic Information** page, in the section for **App Credentials**, note the **Signing Secret**.
 > and Select the  **Event Subscriptions**  feature, and enable it. Input a  **Request URL**.
-![Enable Event API](https://github.com/slackapi/node-slack-events-api/raw/master/support/event-subscriptions.gif)
 >
 > In this page under **Subscribe to Workspace Events** add **message.channels** events.
 >
 >
 > **request URL** slack use it to reach your server, if you are in development mode you could you [ngrok](https://ngrok.com/) to generate a request url.
 > **NOTICE THAT:** you should add the uri **/slack/events** to the request url or change it from app.js file  
-![ngrok](https://github.com/slackapi/node-slack-events-api/raw/master/support/ngrok.gif)
 
 
 # Twitter Integration
