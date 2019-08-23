@@ -17,14 +17,11 @@ docker-compose build web
 docker-compose up web
 ``````
 
-After successfully building and running the server, the terminal output should be like this:
-![docker-compose up web](https://i.imgur.com/SQh9Biv.png)
-
 ## .ENV FILE
 
 .env file should conatin the following data:
 
-> BASE_URL=http://localhost:8080							
+> BASE_URL=http://localhost:8000							
 > MONGODB_URI=mongodb://localhost:27017/test
 >
 > TWITTER_KEY=
