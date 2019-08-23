@@ -1,0 +1,48 @@
+{
+  "name": "ZappyChallenge",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Samira Nasser",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nyc mocha --timeout=10000 --exit",
+    "lint": "eslint \"**/*.js\""
+  },
+  "dependencies": {
+    "@slack/events-api": "2.2.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.2",
+    "compression": "^1.7.3",
+    "connect-mongo": "^2.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "lob": "^6.0.5",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.15",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
+    "slack": "11.0.2",
+    "stripe": "^6.25.1",
+    "twit": "^2.2.11",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.16.0",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "sinon": "^7.2.4",
+    "sinon-mongoose": "^2.2.1",
+    "supertest": "^3.4.2"
+  },
+  "engines": {
+    "node": ">=8.11.3",
+    "npm": ">=5.6.0"
+  }
+}
